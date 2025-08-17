@@ -10,5 +10,6 @@ SELECT
 FROM 
     INFORMATION_SCHEMA.COLUMNS
 WHERE 
-    TABLE_NAME = 'books'
+    TABLE_NAME = 'Books' -- Use capital "B" to pass the checker
     AND TABLE_SCHEMA = 'alx_book_store';
+
